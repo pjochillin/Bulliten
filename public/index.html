@@ -1,43 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta
+            name="description"
+            content="Web site created using create-react-app"
+        />
+        <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <link rel="stylesheet" href="style.css" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <!-- font awesome -->
+        <script
+            src="https://kit.fontawesome.com/f3679402e4.js"
+            crossorigin="anonymous"
+        ></script>
+        <title>Builten</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <nav>
+                <div class="logo">builten</div>
+                <ul class="nav-ul">
+                    <li>
+                        <input type="submit" value="Login" class="btn" onclick="location.href='account.html'">
+                        </input>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer">
+            <div class="inner-footer">
+                <div class="logo-container">
+                    <img src="" />
+                </div>
+                <div class="footer-third">
+                    <h1>Resources</h1>
+                    <br>
+                    <a href="#">Blog</a>
+                    <a href="#">Help Center</a>
+                </div>
+                <div class="footer-third">
+                    <h1>Company</h1>
+                    <br>
+                    <a href="#">Contact us</a>
+                    <a href="#">Careers</a>
+                </div>
+                <div class="footer-third">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </li>
+                </div>
+            </div>
+            <hr class="line">
+        </div>
+    </body>
 </html>
